@@ -66,9 +66,9 @@ export const EntryForm = ({ entry, moods, onFormSubmit }) => {
                         <label htmlFor="moodId" className="label">Mood: </label>
                         <div className="control">
                             <div className="select">
-                                <select name="moodId"
+                                <select name="mood_id"
                                     proptype="int"
-                                    value={updatedEntry.moodId}
+                                    value={updatedEntry.mood_id}
                                     onChange={handleControlledInputChange}>
 
                                     <option value="0">Select a mood</option>
